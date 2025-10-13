@@ -30,7 +30,7 @@ public class FactionThread extends Thread{
                     break;
                 }
 
-                List<PartType> collectedParts = factory.takeParts(faction);
+                List<PartType> collectedParts = factory.takeParts();
                 for (PartType part : collectedParts) {
                     faction.addPart(part);
                 }

@@ -46,7 +46,7 @@ public class Factory {
         }
     }
 
-    public List<PartType> takeParts(Faction faction) throws InterruptedException {
+    public List<PartType> takeParts() throws InterruptedException {
         synchronized (dayNightLock) {
             while ((isDayTime || producedParts.isEmpty()) && !simulationComplete.get()) {
                 dayNightLock.wait(100);

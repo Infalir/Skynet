@@ -35,8 +35,7 @@ public class Faction {
     }
 
     public int calculateCompleteRobots() {
-        int completeRobots = Math.min(heads.get(), Math.min(torsos.get(), Math.min(hands.get() / 2, feet.get() / 2)));
-        return completeRobots;
+        return Math.min(heads.get(), Math.min(torsos.get(), Math.min(hands.get() / 2, feet.get() / 2)));
     }
 
     public void printStatus() {

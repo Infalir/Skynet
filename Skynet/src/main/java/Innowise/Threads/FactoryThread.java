@@ -24,7 +24,7 @@ public class FactoryThread extends Thread{
                 Thread.sleep(50);
                 factory.endDay();
 
-                if (day % 20 == 0 || day == 100) {
+                if (day % 20 == 0) {
                     System.out.printf("--- Day %d completed. Total parts produced: %d, Remaining in factory: %d ---%n", day, factory.getTotalProduced(), factory.getRemainingParts());
                 }
 

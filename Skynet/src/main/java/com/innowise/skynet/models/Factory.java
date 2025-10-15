@@ -94,9 +94,7 @@ public class Factory {
         for (PartType part : production) {
             count.put(part, count.get(part) + 1);
         }
-        return String.format("Heads: %d, Torsos: %d, Hands: %d, Feet: %d",
-                count.get(PartType.HEAD), count.get(PartType.TORSO),
-                count.get(PartType.HAND), count.get(PartType.FOOT));
+        return String.format("Heads: %d, Torsos: %d, Hands: %d, Feet: %d", count.get(PartType.HEAD), count.get(PartType.TORSO), count.get(PartType.HAND), count.get(PartType.FOOT));
     }
 
     public void completeSimulation() {

@@ -1,6 +1,6 @@
-package Innowise.Threads;
+package com.innowise.skynet.threads;
 
-import Innowise.Models.Factory;
+import com.innowise.skynet.models.Factory;
 
 import java.util.concurrent.CountDownLatch;
 

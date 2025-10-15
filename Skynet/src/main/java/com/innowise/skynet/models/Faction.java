@@ -1,6 +1,6 @@
-package Innowise.Models;
+package com.innowise.skynet.models;
 
-import Innowise.Enum.PartType;
+import com.innowise.skynet.enums.PartType;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

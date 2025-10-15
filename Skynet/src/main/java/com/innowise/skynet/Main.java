@@ -1,9 +1,9 @@
-package Innowise;
+package com.innowise.skynet;
 
-import Innowise.Models.Faction;
-import Innowise.Models.Factory;
-import Innowise.Threads.FactionThread;
-import Innowise.Threads.FactoryThread;
+import com.innowise.skynet.models.Faction;
+import com.innowise.skynet.models.Factory;
+import com.innowise.skynet.threads.FactionThread;
+import com.innowise.skynet.threads.FactoryThread;
 
 import java.util.concurrent.CountDownLatch;
 

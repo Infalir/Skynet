@@ -1,8 +1,8 @@
-package Innowise.Threads;
+package com.innowise.skynet.threads;
 
-import Innowise.Enum.PartType;
-import Innowise.Models.Faction;
-import Innowise.Models.Factory;
+import com.innowise.skynet.enums.PartType;
+import com.innowise.skynet.models.Faction;
+import com.innowise.skynet.models.Factory;
 
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
